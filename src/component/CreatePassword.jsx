@@ -31,7 +31,7 @@ const CreatePassword = () => {
     }
 
     return (
-        <div className='w-full h-screen flex justify-center items-center'>
+        <div className='w-full h-screen flex justify-center items-center px-8'>
             <Toaster />
             <div className='w-full h-auto sm:w-5/12 p-6 bg-emerald-700 shadow-lg rounded-md'>
                 <motion.h2
