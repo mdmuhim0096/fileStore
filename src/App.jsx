@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="flex justify-center items-center overflow-hidden w-full h-screen bg-gradient-to-br from-emerald-700 via-teal-700 to-zinc-800">
-      <BrowserRouter basename="/fileStore/">
+      <BrowserRouter basename="/fileStore">
         <Routes>
           <Route path={"/create-password"} element={<CreatePassword />} />
           <Route path={"/"} element={isCreatePassword ? <CreatePassword /> : <Home />} />
